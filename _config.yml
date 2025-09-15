@@ -15,8 +15,8 @@ plainwhite:
   tagline: Developer.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
-  search                   : true # true, false (default)
-  search_full_content      : true # true, false (default)
+  search: true                  # ⬅️ 검색 ON (테마가 이 플래그를 감지해 검색 UI 표시)
+  search_full_content: true     # ⬅️ 전체 본문까지 인덱싱(아래 search.json에서 사용)
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
   html_lang: "en" # set the lang attribute of the <html> tag for the pages. See here for a list of codes: https://www.w3schools.com/tags/ref_country_codes.asp
@@ -54,6 +54,9 @@ plainwhite:
 
 # Build settings
 # theme: plainwhite
+
+header_pages:
+  - search.md
 
 plugins:
   - jekyll-seo-tag
