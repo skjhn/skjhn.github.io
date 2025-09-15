@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Welcome to skjhn GitHub Pages!"
 date:   2025-09-15 11:42:30 +0900
 categories: jekyll update
 ---
